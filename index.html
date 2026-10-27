@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="My web development journey and my embedded systems projects.">
+        <title>Spider Class</title>
+    </head>
+    <body>
+        <header>
+            <h1>My Web Development Journey</h1>
+            <p>Welcome to my web page. This is where I will document my progress in learning web development.</p>
+            <p>HTML is <strong>not a programming language</strong>. It is a <em>markup language</em>.</p>
+            <nav>
+                <a href="#about">About me</a> |
+                <a href="#dht11">My project</a> |
+                <a href="#contact">Find me online</a> |
+                <a href="#feedback">Feedback</a>
+            </nav>
+        </header>
+
+        <hr>
+
+        <main>
+            <section id="about">
+                <h2>Me as an Embedded Systems Engineer</h2>
+                <p>I am a <strong>second year student</strong> of Microprocessor Technology and Instrumentation at <em>The University of Nairobi</em>.</p>
+                <p>My journey in embedded systems has been both challenging and rewarding.</p>
+                <p>I have learned to learn and adapt to new technologies.</p>
+            </section>
+
+            <hr>
+
+            <article id="dht11">
+                <h3>My recent project: Digital Humidity and Temperature Sensor</h3>
+                <p>This project involved designing a digital humidity and temperature sensor using a microcontroller. I learned how to interface sensors with microcontrollers and display the readings on an LCD screen.</p>
+                <p>It was a great learning experience, and I am proud of the final product.</p>
+
+                <figure>
+                    <img src="images/project1.jpeg" alt="Digital Humidity and Temperature Sensor Project" width="300">
+                    <figcaption>My DHT11 sensor project with an ESP32 and LCD.</figcaption>
+                </figure>
+
+                <h4>Components Used</h4>
+                <ul>
+                    <li>DHT11 Humidity and Temperature Sensor</li>
+                    <li>ESP32 Microcontroller</li>
+                    <li>16x2 LCD Display</li>
+                </ul>
+
+                <table>
+                    <caption>Components and their jobs</caption>
+                    <thead>
+                        <tr>
+                            <th>Component</th>
+                            <th>Job</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>DHT11</td>
+                            <td>Measures temperature and humidity</td>
+                        </tr>
+                        <tr>
+                            <td>ESP32</td>
+                            <td>Reads the sensor and controls the display</td>
+                        </tr>
+                        <tr>
+                            <td>16x2 LCD</td>
+                            <td>Shows the readings</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h4>How the project works</h4>
+                <ol>
+                    <li>The sensor measures the humidity and temperature of the surrounding environment.</li>
+                    <li>The microcontroller reads the data from the sensor and processes it.</li>
+                    <li>The processed data is then displayed on the LCD screen.</li>
+                </ol>
+
+                <table>
+                    <caption>Example readings (replace with your own)</caption>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Temperature (&deg;C)</th>
+                            <th>Humidity (%)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>08:00</td>
+                            <td>22</td>
+                            <td>65</td>
+                        </tr>
+                        <tr>
+                            <td>12:00</td>
+                            <td>27</td>
+                            <td>50</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h4>What I learned</h4>
+                <ul>
+                    <li>Interfacing sensors
+                        <ul>
+                            <li>Wiring the DHT11 correctly</li>
+                            <li>Reading its digital data signals</li>
+                        </ul>
+                    </li>
+                    <li>Displaying data
+                        <ul>
+                            <li>Sending text to the LCD screen</li>
+                            <li>Updating the readings</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h4>Terms in My Project</h4>
+                <dl>
+                    <dt>DHT11</dt>
+                    <dd>A low cost sensor that measures temperature and humidity.</dd>
+                    <dt>ESP32</dt>
+                    <dd>A microcontroller with built-in Wi-Fi and Bluetooth that reads inputs and controls outputs.</dd>
+                    <dt>LCD</dt>
+                    <dd>A screen that displays text and numbers.</dd>
+                    <dt>Humidity</dt>
+                    <dd>The amount of water vapor in the air.</dd>
+                    <dt>Temperature</dt>
+                    <dd>The measure of how hot or cold something is.</dd>
+                </dl>
+            </article>
+
+            <hr>
+
+            <section id="contact">
+                <h2>Find Me Online</h2>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/kevin-odoyo-a7b8783a6" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/kevin.odoyo.908" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                    <li><a href="https://www.tiktok.com/@kevinodoyo108" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+                </ul>
+            </section>
+
+            <hr>
+
+            <section id="feedback">
+                <h2>Project Feedback</h2>
+                <form action="#" method="post">
+
+                    <p>
+                        <label for="fullname">Your name:</label><br>
+                        <input type="text" id="fullname" name="fullname" placeholder="e.g. James Kenneth" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Your email:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="topic">What are you interested in?</label><br>
+                        <select id="topic" name="topic">
+                            <option value="sensors">Sensors</option>
+                            <option value="microcontrollers">Microcontrollers</option>
+                            <option value="web">Web development</option>
+                        </select>
+                    </p>
+
+                    <fieldset>
+                        <legend>How would you rate the project?</legend>
+                        <input type="radio" id="good" name="rating" value="good">
+                        <label for="good">Good</label>
+                        <input type="radio" id="great" name="rating" value="great">
+                        <label for="great">Great</label>
+                        <input type="radio" id="excellent" name="rating" value="excellent">
+                        <label for="excellent">Excellent</label>
+                    </fieldset>
+
+                    <p>
+                        <label for="message">Your message:</label><br>
+                        <textarea id="message" name="message" rows="5" cols="40"></textarea>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="updates" name="updates">
+                        <label for="updates">Tell me about new projects</label>
+                    </p>
+
+                    <button type="submit">Send feedback</button>
+                    <button type="reset">Clear</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Spider Kevmans. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
