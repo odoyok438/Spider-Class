@@ -1,0 +1,108 @@
+    body {
+        background-color: #646978;  /* a soft, muted background color for a calm reading experience */
+        color: #222222;
+        font-size: 1rem;  /* slightly larger than the default font size for better readability */
+        max-width: 800px;   /* keeps text in a comfotable column width for reading */
+        margin: 0 auto;   /* Center the column (more in the box model)*/
+        padding: 20px;  /* adds some space around the text */
+    }
+    
+    img {
+        max-width: 100%;  /* ensures images don't overflow their container */
+        height: auto;  /* maintains aspect ratio */
+
+    }
+
+    h1 {
+        font-size: 1.8rem;  /* larger font size for main headings */
+    }
+    nav a {
+        margin-right: 15px;  /* adds space between navigation links */
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+    section, article{
+        padding: 20px;
+        margin-bottom: 1.5rem;
+        border: 1px solid lab(36.15% 0 0);
+        border-radius: 8px;
+    }
+
+    article {
+        background-color: #646978;;
+    }
+
+    h2 {
+        margin-top: 0;
+    }
+
+    img{
+        border: 3px solid #646978;
+        border-radius: 6px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #d0cbcb;
+        color: #554e4e;
+        margin-top: 20px;
+    }
+
+    body {
+        font-family: Georgia, Arial, sans-serif;  /* sets a clean, sans-serif font for better readability */
+        line-height: 1.6;  /* increases line height for better readability */
+    }
+
+    h1 {
+        text-align: center;  /* centers headings for a balanced look */
+        text-transform: uppercase;  /* makes headings stand out */
+        letter-spacing: 1px;  /* adds a little space between letters for better readability */
+    }
+
+    h2, h3, h4 {
+        text-align: left;  /* aligns subheadings to the left for a clean look */
+        text-transform: uppercase;  /* makes subheadings stand out */
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.2rem;  /* slightly larger font size for subheadings */
+    }
+    h4 {
+        font-style: italic;  /* makes subheadings stand out */
+    }
+
+    a {
+        color: #8ecbff;  /* a soft blue color for links */
+        text-decoration: none;  /* removes underline from links for a cleaner look */
+        font-weight: bold;  /* makes links stand out */
+    }
+
+    nav a{
+        margin-right: 15px;  /* adds space between navigation links */
+        border-bottom: 2px solid transparent;  /* adds a subtle underline effect on hover */
+    }
+
+    #contact ul {
+        list-style-type: heart;  /* uses heart symbols for list items in the contact section */
+    }
+
+    ol {
+        list-style-type: upper-roman;  /* uses uppercase Roman numerals for ordered lists */
+    }
+
+    ul ul {
+        list-style-type: heart;  /* uses heart symbols for unordered lists */
+    }
+
+    dt {
+        font-weight: bold;  /* makes definition terms stand out */
+        margin-top: 0.5rem;  /* adds space above definition terms for better readability */
+    }
+    dd {
+        margin-left: 1.5rem;  /* indents definition terms for better readability */
+        margin-bottom: 0.5rem;  /* adds space below definition terms for better readability */
+        font-style: italic;  /* makes definition terms stand out */
+    }
+
+
